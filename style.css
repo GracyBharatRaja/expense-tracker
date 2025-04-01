@@ -1,0 +1,105 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, gold, #fff);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+  }
+  
+ 
+  .container {
+    background: rgb(148, 227, 218);
+    padding: 30px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px ;
+  }
+  
+ 
+  .container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+ 
+  .form-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-area select,
+  .form-area input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+  }
+  
+  .form-area button {
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .form-area button:hover {
+    background-color: #005fa3;
+  }
+  
+  
+  .summary {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .summary span {
+    font-weight: bold;
+  }
+  
+ 
+  .transactions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .transactions li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .transactions li.income {
+    background-color: #e6f4ea;
+    color: #2e7d32;
+  }
+  
+  .transactions li.expense {
+    background-color: #fdecea;
+    color: #c62828;
+  }
+  
+  .transactions li button {
+    background: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    color: inherit;
+  }
+  
